@@ -1,0 +1,130 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-family:"Inter"
+}
+
+* :not(.fa-solid):not(.fa):not(.e-icons){
+    font-family: "Inter"
+}
+
+body {
+  margin-bottom: 60px;
+  background-color:#12161d;
+  color:#ffffff;
+}
+.e-bigger {
+    font-size: x-large;
+}
+
+/*Button*/
+.btn:focus, .btn:active{
+    outline:none !important;
+    box-shadow:none;
+}
+.no-a-decoration, .no-a-decoration:hover{
+    text-decoration:none;
+    color:inherit;
+}
+
+
+/*Grid*/
+/* General Grid Styling */
+#categories {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    /* Header Styling */
+    #categories .e-headercell {
+        background-color: #212b36;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 2px solid #ddd;
+    }
+
+    /* Cell Styling */
+    #categories .e-rowcell {
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    /* Hover Effect */
+    #categories .e-row:hover {
+        background-color: #fff;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Action Column Styling */
+    #categories .e-rowcell:last-child {
+        text-align: center;
+    }
+
+/* Widget Styling */
+.widget {
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-size: 24px;
+    text-align: center;
+}
+
+    /* Font Awesome Icon Styling */
+    .widget i {
+        color: #4caf50;
+        margin: 0 auto;
+    }
+
+
+
+
+/* Radio button group styling */
+.e-btn-group.custom-rbt-group {
+    width: 100%;
+}
+
+    .e-btn-group.custom-rbt-group .e-btn {
+        width: 50%;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+.custom-rbt-group label.e-btn {
+    box-shadow: none !important;
+    border: 1px solid #fff;
+    background-color: rgb(34, 43, 51);
+    color: #fff;
+}
+
+/* Styling for the selected (checked) radio button */
+.e-btn-group.custom-rbt-group input[type="radio"]:checked + label.e-btn {
+    background-color: #fff;
+    color: #212b36;
+    border: 1px solid #fff;
+}
+
+/*Widget*/
+.widget {
+    background-color: #1a222b;
+    border-radius:1rem;
+}
+
